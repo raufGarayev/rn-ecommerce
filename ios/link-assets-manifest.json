@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/SourceSansPro-Black.ttf",
+      "sha1": "90a74fede12dcf7ec3014450973bc1dcb2501aa3"
+    },
+    {
+      "path": "assets/fonts/SourceSansPro-Bold.ttf",
+      "sha1": "74e61261c3034266452a75b3acbe7f3ab72b95cb"
+    },
+    {
+      "path": "assets/fonts/SourceSansPro-ExtraLight.ttf",
+      "sha1": "f9c7259a99ac2b07085002ea678051141bcf60ee"
+    },
+    {
+      "path": "assets/fonts/SourceSansPro-Light.ttf",
+      "sha1": "47498a8da7bca6fe8f28952d6e9ed494450ea393"
+    },
+    {
+      "path": "assets/fonts/SourceSansPro-Regular.ttf",
+      "sha1": "51b9676b3f532b2c8ba7b2a840da5a014533eab2"
+    },
+    {
+      "path": "assets/fonts/SourceSansPro-SemiBold.ttf",
+      "sha1": "c9f6996aeeb3f2783dbc28f0cd2377f6fb5495d1"
+    }
+  ]
+}
