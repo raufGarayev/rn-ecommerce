@@ -2,15 +2,19 @@
   "name": "ecom",
   "version": "0.0.1",
   "private": true,
+  "entryPoint": "./App.jsx",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "upd": "react-native upgrade"
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/drawer": "^6.6.2",
     "@react-navigation/native-stack": "^6.9.12",
     "@reduxjs/toolkit": "^1.9.5",
     "react": "18.2.0",

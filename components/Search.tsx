@@ -1,10 +1,13 @@
 import {View, TextInput, TouchableOpacity, Text, StyleSheet} from 'react-native'
+import Iconic from 'react-native-vector-icons/Ionicons'
+import { useNavigation } from '@react-navigation/native';
 
 const Search = () => {
+    const navigation = useNavigation()
     return (
         <View style={styles.search}>
             <TextInput style={styles.searchInput} />
-            <TouchableOpacity style={styles.filter}><Text style={styles.fText}>S</Text></TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('Categories')} style={styles.filter}><Iconic name='ios-filter' color='white' size={20} /></TouchableOpacity>
         </View>
     )
 }
@@ -12,7 +15,6 @@ const Search = () => {
 const styles = StyleSheet.create({
     search: {
         height: 80,
-        paddingHorizontal: 10,
         flexDirection: 'row',
         alignItems: 'center',
         gap: 9

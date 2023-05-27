@@ -1,15 +1,19 @@
-import {Text, StyleSheet} from 'react-native'
+import {Text, StyleSheet} from 'react-native';
 
+interface TextProps {
+    text: any;
+    style: any;
+}
 
-const CustomText = ({text, style}) => {
+const CustomText: React.FC<TextProps> = ({text, style}) => {
     return (
-        <Text style={[style, styles.font]}>{text}</Text>
+        <Text style={[styles.font, style ]}>{text}</Text>
     )
 }
 
 const styles = StyleSheet.create({
     font: {
-        fontFamily: 'SourceSansPro-Regular'
+        fontFamily: 'SourceSansPro-Regular',
     }
 })
 

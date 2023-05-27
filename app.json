@@ -1,4 +1,5 @@
 {
   "name": "ecom",
-  "displayName": "ecom"
+  "displayName": "ecom",
+  "entryPoint": "./App.jsx"
 }

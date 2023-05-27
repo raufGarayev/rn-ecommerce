@@ -7,13 +7,21 @@ export const apiSlice = createApi({
     endpoints: (builder) => ({
         getProducts: builder.query<ProductArray, any>({
             query: () => '/products'
+        }),
+        getCategories: builder.query({
+            query: () => '/products/categories'
+        }),
+        getCategoryProduct: builder.query({
+            query: (arg) => `/products/category/${arg}`
         })
     })
 
 })
 
 export const {
-    useGetProductsQuery
+    useGetProductsQuery,
+    useGetCategoriesQuery,
+    useGetCategoryProductQuery
 } = apiSlice
 
 export default apiSlice.reducer
